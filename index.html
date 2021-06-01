@@ -295,20 +295,30 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button data-modal-close  type="button" class="modal-button"></button>
-         <div>
-             <p>Оставьте свои данные, мы вам перезвоним</p>
-            <form>
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name">
-                <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel">
-                <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail">
-                <label for="feedback">Комментарий</label>
-                <textarea name="feedback" rows="5" placeholder="Введите текст" id="feedback"></textarea>
-                <input type="checkbox" name="accept" id="accept">
-                <label for="accept">Соглашаюсь с рассылкой и принимаю</label>
-                <button type="submit">Отправить</button>
+         <div class="modal-wrapper">
+             <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="modal-form">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Почта</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+               <div class="form-group">
+                    <label for="feedback">Комментарий</label>
+                    <textarea name="feedback"  placeholder="Введите текст" id="feedback"></textarea>
+               </div>
+                <div class="modal-checkbox">
+                    <input type="checkbox" name="accept" id="accept">
+                    <label for="accept">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                </div>
+                <button type="submit" class="modal-button-submit">Отправить</button>
             </form>
          </div>
     </div>
