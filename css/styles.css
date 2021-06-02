@@ -653,9 +653,13 @@ img {
   background: #2f303a;
 }
 .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   margin-left: 12px;
+  margin-right: 10px;
 
   background: var(--accent-coloure);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -668,6 +672,11 @@ img {
   letter-spacing: 0.06em;
 
   color: #ffffff;
+}
+
+.icon-subscribe {
+  fill: #ffffff;
+  margin-left: 10px;
 }
 
 /* Модалка */
