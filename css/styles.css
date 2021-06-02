@@ -733,6 +733,7 @@ img {
   width: 448px;
 }
 .form-group {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -826,6 +827,16 @@ textarea {
 
   color: #ffffff;
 }
-.modal-icon {
-  fill: var(--primery-text-coloure);
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  bottom: 11px;
+}
+.submit-wrapper {
+  text-align: center;
+}
+.checkbox-link {
+  text-decoration: underline;
+  color: var(--accent-coloure);
 }

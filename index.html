@@ -303,14 +303,23 @@
                 <div class="form-group">
                     <label for="name">Имя</label>
                     <input type="text" name="name" id="name">
+                    <svg width="12" height="12" class="input-icon">
+                        <use href="./images/icons/symbol-defs.svg#icon-person-opt"></use>
+                    </svg>
                 </div>
                 <div class="form-group">
                     <label for="tel">Телефон</label>
                     <input type="tel" name="tel" id="tel">
+                    <svg width="13" height="13" class="input-icon">
+                        <use href="./images/icons/symbol-defs.svg#icon-phone-opt"></use>
+                    </svg>
                 </div>
                 <div class="form-group">
                     <label for="mail">Почта</label>
                     <input type="email" name="mail" id="mail">
+                    <svg width="15" height="12" class="input-icon">
+                        <use href="./images/icons/symbol-defs.svg#icon-mail-opt"></use>
+                    </svg>
                 </div>
                <div class="form-group">
                     <label for="feedback">Комментарий</label>
@@ -318,9 +327,11 @@
                </div>
                 <div class="modal-checkbox">
                     <input type="checkbox" name="accept" id="accept">
-                    <label for="accept">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                    <label for="accept">Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="">Условия договора</a> </label>
                 </div>
-                <button type="submit" class="modal-button-submit">Отправить</button>
+                <div class="submit-wrapper">
+                    <button type="submit" class="modal-button-submit">Отправить</button>
+                </div>
             </form>
          </div>
     </div>
